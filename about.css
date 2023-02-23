@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+body{
+    background-image: url("Images/Project bg2.png");
+    background-attachment: fixed;    
+}
+.heading img{
+    width:1278px;
+    height: 100px;
+}
+.nav{
+    position: relative;
+    left: 30px;
+}
+.nav a{
+    color: cyan;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 22px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav .main{
+    color: lime;
+    text-shadow: 4px -2px 5px lime;
+}
+.content div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.content .p{
+    position: relative;
+    top: 70px;
+    right: 250px;
+}
+.title{
+    color: aliceblue;
+    font-size: 40px;
+}
+.head{
+    font-size: 75px;
+    color: lime;
+}
+.ul{
+    font-size: 25px;
+    color: lime;
+    text-decoration: underline;
+}
+img{
+    width: 80px;
+}
+.h{
+    opacity: 0;
+    color: gold;
+    font-size: 30px;
+}
+img:hover .h{
+    opacity: 0.6;
+}
+.p .img{
+    display: block;
+}

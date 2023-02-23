@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+body{
+    background-image: url("Images/Project bg2.png");
+    background-attachment: fixed; 
+}
+/* .heading img{
+    width:1278px;
+    height: 100px;
+} */
+.nav{
+    width: 99%;
+    position: relative;
+    left: 30px;
+}
+.nav a{
+    color: cyan;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 22px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav .main{
+    color: lime;
+    text-shadow: 4px -2px 5px lime;
+}
+
+.list{
+    float: left;
+    overflow: hidden;
+}
+.list .btn{
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.list .btn button{
+    background-color: black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: cyan; */
+}
+.list .content{
+    display: none;
+    margin-top: 40px;
+    position: absolute;
+    background: linear-gradient(to left , black ,darkblue);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.content a:hover{
+    background-color: rgba(210, 105, 30, 0.638);
+}
+.list .content a{
+    font-size: 18px;
+    float: none;
+    color: gold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.list:hover .content{
+    display: block;
+}
+.change{
+    margin: 0;
+    width: 30%;
+}
+
+.body h2{
+    color: springgreen;
+}
+.first{
+    color: azure;
+    position: relative;
+    left: 15%;
+    height: 250px;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    width: 55%;
+    padding: 10px;
+    background: linear-gradient(to bottom right ,black,red,black);
+}
+h1{
+    font-size: 30px;
+    color: gold;
+    text-decoration: underline;
+    width: 99%;
+    text-align: center;
+}
+li{
+    width: 99%;
+    text-indent: 20px;
+    list-style-type: disc;
+}
+h3{
+    font-size: 22px;
+    width: 99%;
+}
+.head2{
+    padding: 10px;
+    font-size: 27px;
+    width: 70%;
+    position: relative;
+    left: 5%;
+}
+.first li{
+    padding: 5px;
+    font-size: 20px;
+}
+.head3{
+    padding: 7px;
+    font-size: 27px;
+    width: 70%;
+    position: relative;
+    left: 27%;
+}
+.second{
+    color: azure;
+    position: relative;
+    left: 35%;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    width: 55%;
+    padding: 7px;
+    background: linear-gradient(to bottom right ,black,red,black);
+}
+.second li{
+    padding: 5px;
+    font-size: 20px;
+}
+.third{
+    color: azure;
+    position: relative;
+    left: 45%;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    width: 55%;
+    padding: 7px;
+    background: linear-gradient(to bottom right ,black,red,black);
+}
+.third li{
+    padding: 5px;
+    font-size: 20px;
+}
+.head4{
+    padding: 7px;
+    font-size: 27px;
+    width: 60%;
+    position: relative;
+    left: 37%;
+}

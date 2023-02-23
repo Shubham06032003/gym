@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+body{
+    background-image: url("Images/Project bg2.png");
+    background-attachment: fixed;    
+}
+.heading img{
+    width:1278px;
+    height: 100px;
+}
+.nav{
+    position: relative;
+    left: 30px;
+}
+.nav a{
+    color: cyan;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 22px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.nav .main{
+    color: lime;
+    text-shadow: 4px -2px 5px lime;
+}
+.body{
+    color: gold;
+}
+.body img{
+    width: 300px;
+}
+li{
+    text-indent: 20px;
+}
+.about , .aboutblue{
+    display: none;
+    padding: 5px;
+}
+.first{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    /* left: 60px; */
+    border: 2px solid red;
+    border-radius: 10px;
+    background: radial-gradient(red,black );
+}
+.first img{
+    width: 330px;
+}
+.first:hover .about{
+    text-align: justify;
+    height: 128px;
+    display: block;
+    width: 330px;
+}
+
+.about button{
+    position: relative;
+    left: 18%;
+    margin: 20px;
+    width: 140px;
+    font-size: 18px;
+    background: linear-gradient(to left , red,black);
+    color: lime;
+}
+
+.second{
+    position: relative;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background: radial-gradient(red,black ); 
+    padding: 20px;  
+}
+.second img{
+    width: 270px;
+}
+.second:hover .about{
+    text-align: justify;
+    height: 100px;
+    display: inline-block;
+    padding: 0;
+    width: 270px;
+}
+.aboutblue button{
+    position: relative;
+    left: 18%;
+    margin: 20px;
+    width: 140px;
+    font-size: 18px;
+    background: linear-gradient(to left ,cyan,black);
+    color: orangered;   
+}
+.third{
+    position: relative;
+    /* top: 500px; */
+    left: 130px; 
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    background: radial-gradient(cyan,black ); 
+    padding: 10px;
+}
+.third img{
+    width: 310px;
+}
+.third:hover .aboutblue{
+    text-align: justify;
+    display: block;
+    height: 100px;
+    width: 310px;
+}
+.last{
+    position: relative;
+    left: 700px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    background: radial-gradient(cyan,black ); 
+    /* padding: 10px; */
+    
+}
+.last img{
+    width: 310px;
+}
+.last:hover .aboutblue{
+    text-align: justify;
+    display: block;
+    width: 310px;
+}
